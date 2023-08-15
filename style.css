@@ -81,3 +81,19 @@ main{
     font-weight: bold;
 }
 
+.overview{
+    background-color: #fcefc7;
+    padding: 2rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 100%;
+    transform: translateY(101%);
+    transition: transform 0.5s ease-in;
+}
+
+.movie:hover .overview{
+    transform: translateY(0);
+
+}
